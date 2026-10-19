@@ -1,0 +1,10 @@
+{
+  "name": "classical-chinese",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "build:offline": "node scripts/build-offline.mjs"
+  }
+}

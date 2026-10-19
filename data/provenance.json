@@ -1,0 +1,15 @@
+{
+  "source": "JoshZ-zzx/ToolBox/ClassicalChinese.html",
+  "blobSha": "045f1accb722ee92c063c9cbd3d4dd01f3ebcb4b",
+  "importedOn": "2026-10-19",
+  "counts": {
+    "annotations": 2349,
+    "lessons": 71,
+    "texts": 71
+  },
+  "sha256": {
+    "DATA": "9e493a2d9145ed6a8dcaa0e3465ee60d20e1029b253063b414f95755bfd4925b",
+    "LESSONS": "e84dcca274fdf0ebcd939d2f355f9acdedddfd8179cba88c48c479c416d10823",
+    "TEXTS": "a839ad7549de3738ba84e48df87ee8471d92779a14f19b023a4d8251f1a1f062"
+  }
+}
