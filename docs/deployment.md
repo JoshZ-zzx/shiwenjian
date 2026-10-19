@@ -2,18 +2,18 @@
 
 ## 默认入口
 
-仓库：`JoshZ-zzx/ClassicalChinese`。在 Settings → Pages 选择 **Deploy from a branch**，分支 `main`、目录 `/(root)`，保存。部署完成后默认访问：
+仓库：`JoshZ-zzx/shiwenjian`。在 Settings → Pages 选择 **Deploy from a branch**，分支 `main`、目录 `/(root)`，保存。部署完成后默认访问：
 
-https://joshz-zzx.github.io/ClassicalChinese/
+https://joshz-zzx.github.io/shiwenjian/
 
 本项目不需要服务器端程序或构建步骤。`.nojekyll` 禁用不需要的 Jekyll 处理。页面使用相对资源路径与 hash 路由，刷新课文链接时无需服务器重写。
 
 ## 以后绑定子域名
 
-域名尚未确定，因此仓库目前不带 `CNAME`。例如将来选择 `gushi.joshzhangzzx.top`：
+域名尚未确定，因此仓库目前不带 `CNAME`。例如将来选择 `shiwen.joshzhangzzx.top`：
 
 1. 先在该仓库的 Settings → Pages → Custom domain 填入完整域名并保存。按分支发布时，GitHub 会在发布源创建 `CNAME` 文件。
-2. 在域名服务商添加 DNS 记录：类型 `CNAME`，主机 `gushi`，目标 `joshz-zzx.github.io`。目标不带 `https://`，也不带 `/ClassicalChinese/`。
+2. 在域名服务商添加 DNS 记录：类型 `CNAME`，主机 `shiwen`，目标 `joshz-zzx.github.io`。目标不带 `https://`，也不带 `/shiwenjian/`。
 3. 等待 GitHub 的 DNS 检查和证书签发完成，然后启用 Enforce HTTPS。不要提前假定证书已经可用。
 4. 打开子域名检查目录、课文、搜索和手机布局。
 

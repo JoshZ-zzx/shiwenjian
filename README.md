@@ -1,8 +1,10 @@
-# 高中古诗文注释查询
+# 诗文笺
+
+高中古诗文注释与伴读。
 
 从 [ToolBox](https://github.com/JoshZ-zzx/ToolBox/blob/main/ClassicalChinese.html) 独立拆出的古诗文学习工具。收录 **71 篇课文、2349 条原始注释**，保留搜索、随文注释、同词例句、收藏、自测与阅读位置。
 
-**[在线使用](https://joshz-zzx.github.io/ClassicalChinese/)** · [域名与部署说明](docs/deployment.md) · [后续扩展方向](docs/roadmap.md)
+**[在线使用](https://joshz-zzx.github.io/shiwenjian/)** · [域名与部署说明](docs/deployment.md) · [后续扩展方向](docs/roadmap.md)
 
 ## 使用
 
@@ -44,7 +46,7 @@ npm test
 npm run build:offline
 ```
 
-生成的 `dist/ClassicalChinese.html` 可以直接双击打开，无需联网；`dist/` 不提交到仓库。拆分维护与单文件离线分发可以同时保留。
+生成的 `dist/shiwenjian.html` 可以直接双击打开，无需联网；`dist/` 不提交到仓库。拆分维护与单文件离线分发可以同时保留。
 
 ## 数据维护
 
